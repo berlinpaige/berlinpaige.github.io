@@ -1,0 +1,95 @@
+
+.name h1{
+	color: #f9d1af;
+	font-weight: bold;
+     font-size:50px;
+	padding-top:20px;
+	text-align:center;
+     font-family: "Arial", Arial, sans-serif;
+}
+.info h1{
+     color: #f9d1af;
+     font-weight: normal;
+     font-size:14px;
+     text-align:center;
+     font-family: "Arial", Arial, sans-serif;  
+}
+.work-history h1{
+     color: #fadabf;
+     font-weight:normal;
+     font-size:24px;
+     padding-right:150px;
+     padding-left:150px;
+     padding-top:20px;
+     font-family: "Arial", Arial, sans-serif;
+}
+.work-history li{
+     color: #fadabf;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+     }
+.work-history p{
+	color:#fbe3cf;
+	padding-left:200px;
+	padding-right:150px;
+     font-family: "Arial", Arial, sans-serif;
+}
+.Community-impact h1{
+     color: #fadabf;
+     font-weight: normal;
+     font-size:24px;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+ }
+ .Community-impact li{
+     color: #fadabf;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+ }
+
+ .Education h1{
+     color: #fadabf;
+     font-weight: normal;
+     font-size:24px;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+ }
+.Education p{
+     color: #fadabf;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+     }
+  .Additional-skills h1{
+     color: #fadabf;
+     font-weight: normal;
+     font-size:24px;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+ }    
+.Additional-skills li{
+     color: #fadabf;
+     padding-right:150px;
+     padding-left:150px;
+     padding-bottom:0px;
+     font-family: "Arial", Arial, sans-serif;
+     }
+
+.body {
+  width: 1116px;
+  height: 1300px;
+  color: #f9d1af;
+  border: solid 30px;
+  background-color: #290000;
+}
