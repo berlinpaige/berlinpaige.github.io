@@ -1,95 +1,156 @@
+html, body, h1, h2, h3, h4, p, div {
+	padding:0;
+	border:0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Halvetica Neue", Halvetica, sans-serif;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 20px;
 
-.name h1{
-	color: #f9d1af;
-	font-weight: bold;
-     font-size:50px;
-	padding-top:20px;
-	text-align:center;
-     font-family: "Arial", Arial, sans-serif;
 }
-.info h1{
-     color: #f9d1af;
-     font-weight: normal;
-     font-size:14px;
-     text-align:center;
-     font-family: "Arial", Arial, sans-serif;  
+a {
+text-decoration: none;
+color:#007aac;
 }
-.work-history h1{
-     color: #fadabf;
-     font-weight:normal;
-     font-size:24px;
-     padding-right:150px;
-     padding-left:150px;
-     padding-top:20px;
-     font-family: "Arial", Arial, sans-serif;
+.nav {
+	
+	margin:50px 20px 20px 20px;
 }
-.work-history li{
-     color: #fadabf;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
-     }
-.work-history p{
-	color:#fbe3cf;
-	padding-left:200px;
-	padding-right:150px;
-     font-family: "Arial", Arial, sans-serif;
-}
-.Community-impact h1{
-     color: #fadabf;
-     font-weight: normal;
-     font-size:24px;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
- }
- .Community-impact li{
-     color: #fadabf;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
- }
 
- .Education h1{
-     color: #fadabf;
-     font-weight: normal;
-     font-size:24px;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
- }
-.Education p{
-     color: #fadabf;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
-     }
-  .Additional-skills h1{
-     color: #fadabf;
-     font-weight: normal;
-     font-size:24px;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
- }    
-.Additional-skills li{
-     color: #fadabf;
-     padding-right:150px;
-     padding-left:150px;
-     padding-bottom:0px;
-     font-family: "Arial", Arial, sans-serif;
-     }
+h1 {
+	font-size: 85px;
+	font-weight: 300;
+	color: #ffffff;
+	line-height:250px;
+}
+.name {
+    padding: 50px;  
+    margin:0px 0px 0px 0px;
+    background-color:#2eb8b8;
+}
 
-.body {
-  width: 1116px;
-  height: 1300px;
-  color: #f9d1af;
-  border: solid 30px;
-  background-color: #290000;
+img{
+	height: 250px;
+	width: 250px;
+	float: left;
+	border-radius: 20px;
+	margin-left:50px;
+
+}
+h2 {
+	color:#007aac;
+	font-size: 25px;
+}
+.subhead {
+	margin: 40px 0px 40px 0px;
+}
+.mission img {
+	float:right;
+}
+.mission {
+	padding: 50px;  
+    margin:0px 0px 50px 0px;
+    background-color:#2eb8b8;
+    color:#ffffff;
+}
+
+h3 {
+	text-align: left;
+	font-size: 30px;
+}
+p {
+  font-size:16px;
+  text-align: left;
+  padding-top:15px;
+}
+
+.tech {
+	padding: 50px;  
+    margin:0px 0px 50px 0px;
+    background-color:#2eb8b8;
+    color:#ffffff;
+}
+
+    li {
+     list-style-type: none;
+     display: inline;
+    }
+
+ .tech img {
+ 	float: none;
+ 	height: 100px;
+ 	width: 100px;
+ 	float:left;
+ }   
+
+.git {
+	margin:100px auto 75px auto;
+	padding:30px;
+	border: 5px solid #007aac;
+	border-radius: 20px;
+	width: 500px;
+}
+
+.git:hover {
+	background-color: #2eb8b8;
+	border: 5px solid #ffffff;
+}
+
+.git:hover h2{
+	color:#ffffff;
+}
+
+.health {
+	padding: 50px;  
+    margin:0px 0px 50px 0px;
+    background-color:#2eb8b8;
+    color:#ffffff;
+}
+
+.health p {
+	text-align:right;
+}
+
+.health h3 {
+	text-align: right;
+}
+
+.promo {
+	margin:100px auto 75px auto;
+	padding:30px;
+	border: 5px solid #007aac;
+	border-radius: 20px;
+	width: 500px;
+}
+
+.promo:hover {
+	background-color: #2eb8b8;
+	border: 5px solid #ffffff;
+}
+
+.promo:hover h2{
+	color:#ffffff;
+}
+
+footer {
+	padding: 50px;  
+    margin:0px 0px 150px 0px;
+    background-color:#2eb8b8;
+    color:#ffffff;
+
+}
+
+footer h3 {
+ text-align: center;
+ font-size: 16px;
+}    
+
+footer img {
+	height: 100px;
+	width: 100px;
 }
