@@ -8,9 +8,13 @@ html, body, h1, h2, h3, h4, p, div {
 	text-align: center;
 }
 .nav li{
-	display: inline;
-	padding: 0 10px 0 10px;
+	display: inline-block;
+	padding: 15px 10px 15px 10px;
 	font-size: 20px;
+	border: 2px solid #007aac;
+	border-radius: 20px;
+	margin: 2px;
+	color:#007aac;
 
 }
 a {
@@ -76,10 +80,10 @@ p {
     color:#ffffff;
 }
 
-    li {
+li {
      list-style-type: none;
      display: inline;
-    }
+}
 
  .tech img {
  	float: none;
@@ -95,15 +99,19 @@ p {
 	border-radius: 20px;
 	width: 500px;
 }
+.git a{
+font-size: 25px;
+}
 
 .git:hover {
 	background-color: #2eb8b8;
 	border: 5px solid #ffffff;
 }
 
-.git:hover h2{
+.git:hover a{
 	color:#ffffff;
 }
+
 
 .health {
 	padding: 50px;  
@@ -151,6 +159,6 @@ footer h3 {
 }    
 
 footer img {
-	height: 100px;
-	width: 100px;
+	height: 65px;
+	width: 65px;
 }
