@@ -162,3 +162,11 @@ footer img {
 	height: 65px;
 	width: 65px;
 }
+
+button {
+	height: 65px;
+	width: 65px;
+	border-radius: 20px;
+	background: #007bb6;
+	color: #ffffff;
+}
