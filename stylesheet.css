@@ -7,7 +7,7 @@ html, body, h1, h2, h3, h4, p, div {
 	font-family: "Halvetica Neue", Halvetica, sans-serif;
 	text-align: center;
 }
-.nav li{
+.nav li, .nav button{
 	display: inline-block;
 	padding: 15px 10px 15px 10px;
 	font-size: 20px;
@@ -15,8 +15,13 @@ html, body, h1, h2, h3, h4, p, div {
 	border-radius: 20px;
 	margin: 2px;
 	color:#007aac;
-
 }
+
+.nav button{
+	background-color: #2eb8b8;
+	color: #ffffff;
+}
+
 a {
 text-decoration: none;
 color:#007aac;
@@ -163,10 +168,67 @@ footer img {
 	width: 65px;
 }
 
-button {
-	height: 65px;
-	width: 65px;
+
+.red {
+	background: #fc4c4f;
+}
+
+.blue {
+	background: #4fa3fc;
+}
+
+.yellow {
+	background: #ECD13F;
+}
+
+
+#colorSelect {
+	background: #fff;
+	border-radius: 5px;
+	clear: both;
+	margin: 20px auto 0;
+	padding: 10px;
+	width: 305px;
+	position: relative;
+		
+	display:none;
+}
+#colorSelect:after {
+	position: absolute;
+	pointer-events: none;
+
+}
+
+#newColor {
+	width: 100px;
+	height: 150px;
 	border-radius: 20px;
-	background: #007bb6;
+	float: left;
+	margin: 10px 20px 20px 10px;
+
+}
+.sliders p {
+	margin: 8px 0;
+	vertical-align: middle;
+}
+.sliders label {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 35px;
+	font-size: 14px;
+	color: #007aac;
+}
+.sliders input {
+	position: relative;
+	top: 2px;
+}
+#colorSelect button {
+	border-radius: 15px;
+	margin: 10px -10px -7px;
+	padding: 5px 10px;
+	width: 325px;
+	height: 45px;
+	background: #2eb8b8;
 	color: #ffffff;
 }
+

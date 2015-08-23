@@ -11,8 +11,31 @@
             <li>IS</li>
             <li>UNDER</li>
             <li>CONSTRUCTION</li>
-         </ul>
-        </div>  
+                <button id="revealColorSelect">New Page Color</button>
+                <div id="colorSelect">
+                  <span id="newColor"></span>
+                  <div class="sliders">
+                   <p>
+                      <label for="red">Red</label>
+                      <input id="red" name="red" type="range" min=0 max=255 value=0>
+                   </p>
+                    <p>
+                     <label for="green">Green</label>
+                     <input id="green" name="green" type="range" min=0 max=255 value=0>
+                   </p>
+                   <p>
+                      <label for="blue">Blue</label>
+                      <input id="blue" name="blue" type="range" min=0 max=255 value=0>
+                    </p>
+
+                 </div>
+                  <div>
+                
+                        <button id="addNewColor">Change Page Color</button>
+                        <button id='addNewColor' class= 'original'>Revert to Original Colors</button>
+                     
+                     </ul>
+                    </div>  
 		<div class="name">
 			<h1><img src="main.jpg" alt="Profile Photo">Berlin Sohn</h1>
         </div>
@@ -53,7 +76,6 @@
               <li><a href="https://lostinlattes.wordpress.com"><img src="wpress.png" alt="Wordpress icon"></a></li>
               <li><a href="https://angel.co/berlinsohn"><img src="angellist.png" alt="Angel List icon"></a></li>
               <li><a href="http://stackoverflow.com/users/5104840/berlin-sohn"><img src="stackoverflow.png" alt="Stackoverflow icon"></a></li>
-              <li><button>Click Here for a JQuery Surprise!</button></li>
             </ul>
          </footer>
          <script src="http://code.jquery.com/jquery-1.11.3.js" type = "text/javascript" charset="utf-8"></script>
